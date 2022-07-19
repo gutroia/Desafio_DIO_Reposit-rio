@@ -1,0 +1,164 @@
+[[[WINDOWS]]]
+===============================================================================
+//dir
+
+Exibe os nomes dos arquivos em cada diretório.
+===============================================================================
+//cd (nome da pasta)
+
+cd ..(Volta p/ diretório anterior).
+cd /(Volta p/ início).
+
+Muda de diretório.
+
+EX: cd (nome da pasta).
+===============================================================================
+//cls
+
+Limpar o Prompt de Comando.
+===============================================================================
+//mkdir (nome da pasta)
+
+Criar um diretório.
+===============================================================================
+//echo
+
+Printa de volta uma frase no terminal.
+===============================================================================
+// >
+
+Redirecionador de fluxo.
+===============================================================================
+//del (arquivo)
+
+Deletar.
+===============================================================================
+//rmdir (diretório)
+
+Deleta um diretório inteiro.
+===============================================================================
+
+--------------------------------------------------------------------------------------
+
+[[[LINUX]]]
+===============================================================================
+//ls
+
+ls -a(Exibe os arquivos ocultos).
+
+Exibe os nomes dos arquivos em cada diretório.
+===============================================================================
+//cd
+
+cd ..(Volta p/ diretório anterior).
+cd /(Volta p/ início).
+
+
+Muda de diretório.
+
+EX: cd (nome da pasta).
+===============================================================================
+//clear
+
+Limpar o Prompt de Comando.
+===============================================================================
+//mkdir (nome da pasta)
+
+Criar um diretório.
+===============================================================================
+//echo
+
+Printa de volta uma frase no terminal.
+===============================================================================
+// >
+
+Redirecionador de fluxo.
+===============================================================================
+//rm -rf (diretório)
+
+Deleta um diretório inteiro.
+===============================================================================
+
+--------------------------------------------------------------------------------------
+
+[[[GIT BASH]]]
+===============================================================================
+//ssh-keygen -t ed25519 -C (email)
+
+Gerar chave pública e privada.
+
+===============================================================================
+//cat (chave)
+
+Comando especial p/ vizualizar o conteúdo das chaves.
+===============================================================================
+//pwd
+
+Mostra o caminho completo para o repositório em que está.
+===============================================================================
+//eval $(ssh-agent -s)
+
+Inicializa um "agente" que fica encarregada de lidar com as chaves.
+===============================================================================
+//ssh-add (chave priv)
+
+Entrega a chave para o "agente".
+===============================================================================
+//git clone (endereço ssh)
+
+Comando para clonar repositórios.
+===============================================================================
+//git init
+
+Inicializa um repositório vazio dentro da pasta local.
+===============================================================================
+//git config --global user.email "(email)"
+
+git config --global --unset user.email(Retira o email do commit).
+
+Registrar email nos commits.
+===============================================================================
+//git config --global user.name (nome)
+
+git config --global --unset user.name(Retira o nome do commit).
+
+Registrar nome nos commits.
+===============================================================================
+// git add (arquivo)
+
+git *(Adiciona todos arquivos não comitados).
+
+Faz o GIT incluir atualizações a um arquivo específico no próximo commit.
+===============================================================================
+//git commit -m "(nome)"
+
+Atribui nome ao commit.
+===============================================================================
+//git status
+
+Verifica os status dos arquivos.
+===============================================================================
+//mv (arquivo) (outro repositório)
+
+Move o arquivo para outro lugar.
+===============================================================================
+//git config --list
+
+Exibe uma lista das configurações do GIT.
+===============================================================================
+//git remote add (nome do arquivo) (URL)
+
+Adiciona seu repositório na URL em que irá hostear o mesmo.
+===============================================================================
+//git remote -v
+
+Irá listar as listas de repositórios cadastrados.
+===============================================================================
+//git push (nome do arquivo) master
+
+Leva o código do repositório local para um repositório remoto.
+===============================================================================
+//git pull (nome do arquivo) master
+
+Puxa o código do repositório remoto para o repositório local.
+===============================================================================
